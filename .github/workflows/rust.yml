@@ -27,6 +27,6 @@ jobs:
       uses: rust-build/rust-build.action@v1.4.5
       with:
         # Output target
-        RUSTTARGET: decryptor
+        RUSTTARGET: ./target/release/decryptor
           
           
